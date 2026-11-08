@@ -1,0 +1,20 @@
+{
+  "id": "mjl-token-display",
+  "title": "MJl — Здоровье и оружие на токене",
+  "description": "Дуга здоровья и иконки предметов в правой и левой руке для D&D 5e.",
+  "version": "1.1.0",
+  "url": "https://github.com/MJl2517/MJl-Token-Dislplay",
+  "manifest": "https://raw.githubusercontent.com/MJl2517/MJl-Token-Dislplay/main/module.json",
+  "download": "https://raw.githubusercontent.com/MJl2517/MJl-Token-Dislplay/main/dist/mjl-token-display.zip",
+  "authors": [{"name": "MJl tools"}],
+  "compatibility": {"minimum": "14.361", "verified": "14.361"},
+  "relationships": {
+    "systems": [{"id": "dnd5e", "type": "system", "compatibility": {"minimum": "5.3.3", "verified": "5.3.3"}}],
+    "recommends": [
+      {"id": "enhancedcombathud", "type": "module", "manifest": "https://github.com/theripper93/enhancedcombathud/releases/latest/download/module.json"},
+      {"id": "enhancedcombathud-dnd5e", "type": "module", "manifest": "https://github.com/theripper93/enhancedcombathud-dnd5e/releases/latest/download/module.json"}
+    ]
+  },
+  "esmodules": ["token-display.mjs"],
+  "styles": ["token-display.css"]
+}
